@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="description" content="portfolio">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,7 +16,7 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    <title>Ghazaleh Ghorbani</title>
+    <title>Ghazaleh Ghorbani | home page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -57,10 +58,10 @@
       <a href="about.html#contact" class="contact-link">Contact me</a>
       <a href="about.html" class="about-link">About me</a>
     </div>
-    <div class="container">
+    <div class="container d-none d-md-block d-lg-block">
       <div class="row">
         <div class="col-6">
-          <img src="images/yoga.png" class="img-fluid" />
+          <img src="images/yoga.png" class="img-fluid" alt="yoga picture"/>
         </div>
         <div class="col-6">
           <h2>Yoga app</h2>
@@ -85,12 +86,12 @@
           <a href="#" class="launch-link">Launch Weather app</a>
         </div>
         <div class="col-6">
-          <img src="images/weather.png" class="img-fluid" />
+          <img src="images/weather.png" class="img-fluid" alt="weather picture" />
         </div>
       </div>
       <div class="row">
         <div class="col-6">
-          <img src="images/yogurt.png" class="img-fluid" />
+          <img src="images/yogurt.png" class="img-fluid" alt="yogurt picture"/>
         </div>
         <div class="col-6">
           <h2>yogurt app</h2>
@@ -104,5 +105,49 @@
         </div>
       </div>
     </div>
+<!------>
+<!--fow smaller resolutions:-->
+<div class="container d-block d-md-none d-lg-none">
+    <div class="row">
+        <img src="images/yoga.png" class="img-fluid" alt="yoga picture"/>
+    </div>
+    <div class="row">
+        <h2>Yoga app</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+          eos eveniet alias temporibus deserunt veritatis minima fugiat
+          explicabo eum dolore.
+        </p>
+        <a href="#" class="launch-link">Launch Yoga app</a>
+    </div>
+    <div class="row">
+        <img src="images/weather.png" class="img-fluid" alt="weather picture"/>
+    </div>
+    <div class="row">
+        <h2>Weather app</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+          eos eveniet alias temporibus deserunt veritatis minima fugiat
+          explicabo eum dolore.
+        </p>
+        <a href="#" class="launch-link">Launch Weather app</a>
+    </div>
+
+    <div class="row">
+        <img src="images/yogurt.png" class="img-fluid" alt="yogurt picture" />
+    </div>
+    <div class="row">
+        <h2>yogurt app</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+          eos eveniet alias temporibus deserunt veritatis minima fugiat
+          explicabo eum dolore.
+        </p>
+        <a href="#" class="launch-link">Launch Yogurt app</a>
+    </div>
+  </div>
   </body>
 </html>
